@@ -1,4 +1,29 @@
-/* Reset CSS */
+
+:root {
+    --background-color: #f4f4f4; 
+    --text-color: #000; 
+    
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+}
+
+
+:root {
+    --background-color: #333; 
+    --text-color: #fff; 
+   
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +35,8 @@ body {
     background-image: url("https://t3.ftcdn.net/jpg/03/01/24/58/240_F_301245840_zwJpFB1MCmJkTg1tMDK9pFnCwce6dQ1T.jpg");
     background-size: cover;
 }
+
+
 
 .container {
     max-width: 800px;
@@ -56,3 +83,21 @@ h1 {
     margin: 5px 0;
     border-radius: 5px;
 }
+
+
+        header {
+            background-color: #fff; 
+            padding: 20px;
+            position: relative; 
+        }
+
+       
+        header::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-left: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-top: 20px solid #fff; 
+        }
