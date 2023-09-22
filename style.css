@@ -1,0 +1,58 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://t3.ftcdn.net/jpg/03/01/24/58/240_F_301245840_zwJpFB1MCmJkTg1tMDK9pFnCwce6dQ1T.jpg");
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Átlátszó háttér */
+    border-radius: 10px;
+    text-align: center; /* Szövegek középre igazítása */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; /* Napok közötti térköz */
+}
+
+.day {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center; /* Szövegek középre igazítása */
+}
+
+.day h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.class {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
